@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_img{
+    height: 40px;
+    margin-top: 2.2%;
+    margin-left: 2.2%;
+}
+.navbar_div{
+    width: 45%;
+    height: 100px;
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar_div_a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 14, 34, 0.8);
+    text-decoration: none;
+    margin-top: 5.5%;
+}
+.Navbar_div_a{
+    padding: 15px;
+    height: 20px;
+    background: #1A6CE8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    margin-top: 3%;
+
+}
+@media (max-width:650px) {
+    .navbar_div{
+        display: none;
+    }
+    
+}
+.body1{
+    display: flex;
+}
+.body1 img{
+    width: 30%;
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 15%;
+    border-radius: 45px;
+    display: block;
+}
+.body1_div1{
+    margin-left: 5%;
+    margin-top: 14%;
+}
+.body1_div1_text1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.body1_div1_text2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 91px;
+}
+.body1_div1_text3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+}
+.body1_div1_text4{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+margin-top: 5%;
+}
+.body2{
+    margin-top: 10%;
+}
+.body2_text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: rgba(74, 77, 81, 0.8);
+
+}
+.body2_div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4%;
+}
+.body2_div img{
+    width: 25%;
+}
+.body_2_img_choto{
+    height: 25px;
+    margin-top: 3%;
+}
+@media (max-width:650px) {
+    .body1 img{
+        display: none;
+    }
+    .body2_div{
+        display: grid;
+    }
+    .body2_div img{
+        margin-left: 25%;
+        width: 50%;
+        margin-top: 7%;
+    }
+    .body_2_img_choto{
+        margin-top: 10%;
+    }
+}
+.body3{
+    margin-top: 10%;
+}
+.body3_text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+text-align: center;
+}
+.body3proj1{
+    width: 80%;
+    height: 350px;
+    background: #F0F2F4;
+    border-radius: 25px;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+
+}
+.body3proj1_img{
+    width: 35%;
+    height: 350px;
+}
+.body3_proj1{
+    margin-left: 5%;
+}
+.body3_proj1 h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 300%;
+line-height: 48px;
+margin-top: 3%;
+
+color: #1A6CE8;
+}
+.body3_proj1 ul{
+    margin-top: 12%;
+    margin-left: 5%;
+}
+.body3_proj1 li{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: rgba(74, 77, 81, 0.8);
+}
+.body4{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.body4_text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 40px;
+/* or 133% */
+margin-left: 5%;
+
+
+color: rgba(0, 14, 34, 0.8);
+}
+.body4_but{
+    padding: 15px;
+    height: 20px;
+    background: #1A6CE8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+@media (max-width:650px) {
+    .body4{
+        display: grid;
+    }
+    .body4_but{
+        width: 35%;
+        margin-left: 40%;
+        margin-top: 7%;
+    }
+    .body3_proj1 h1{
+        font-size: 200%;
+    }
+}
+.hr{
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+.body5{
+    width: 100%;
+    height: 150px;
+
+}
+.body5 h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: rgba(0, 14, 34, 0.53);
+text-align: center;
+padding-top: 5%;
+}
