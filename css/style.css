@@ -162,7 +162,14 @@ text-align: center;
 .body3proj1_img{
     width: 35%;
     height: 350px;
+    display: block;
 }
+@media (max-width:650px) {
+    .body3proj1_img{
+        display: none;
+    }
+}
+
 .body3_proj1{
     margin-left: 5%;
 }
