@@ -81,6 +81,14 @@
     font-size: 45px;
     line-height: 91px;
 }
+@media (max-width:650px){
+    .body1_div1_text2{
+        line-height:0px
+    }
+    .body1_div1_text3{
+        margin-top:5%;
+    }
+}
 .body1_div1_text3{
     font-family: 'Inter';
 font-style: normal;
